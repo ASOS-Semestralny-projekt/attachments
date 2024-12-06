@@ -1,0 +1,65 @@
+<pre><font color="#00FF00"><b>richard@richard-ntb</b></font>:<font color="#5C5CFF"><b>~/Skola/ASOS/Back-end</b></font>$ php artisan test
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Unit\CategoryTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create category                                                     </font> <font color="#7F7F7F">0.26s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create product mock                                                 </font> <font color="#7F7F7F">0.02s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> find category by id                                                 </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> truncate categories                                                 </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Unit\OrderTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order                                                        </font> <font color="#7F7F7F">0.02s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order mock                                                   </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order with multiple products                                 </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Unit\ProductTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create product                                                      </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create product mock                                                 </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> find product by id                                                  </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> truncate products                                                   </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Unit\UserTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create user                                                         </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create product mock                                                 </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> find user by id                                                     </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> truncate users                                                      </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Feature\Api\CategoryTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get categories list success                                         </font> <font color="#7F7F7F">0.02s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Feature\Api\OrderTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get orders list success                                             </font> <font color="#7F7F7F">0.02s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get orders list not logged in error                                 </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order success                                                </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order not logged in success                                  </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order product does not exist error                           </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> create order product price not correct error                        </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Feature\Api\ProductTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get products list success                                           </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get product by id success                                           </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get product by id not found error                                   </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get product list by category with items success                     </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get product list by category without items success                  </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get product list by category not found error                        </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Feature\Api\UserTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get user success                                                    </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> get user not logged in error                                        </font> <font color="#7F7F7F">0.01s</font>  
+
+  <span style="background-color:#00CD00"><font color="#7F7F7F"><b> PASS </b></font></span> Tests\Feature\Auth\AuthRoutesTest
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> register user success                                               </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> register user weak password error                                   </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> register user email exists error                                    </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> register user missing required field error                          </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> login user success                                                  </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> login user wrong password error                                     </font> <font color="#7F7F7F">0.21s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> login user wrong email error                                        </font> <font color="#7F7F7F">0.23s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> login user already logged in error                                  </font> <font color="#7F7F7F">0.02s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> logout user success                                                 </font> <font color="#7F7F7F">0.01s</font>  
+  <font color="#00FF00"><b>✓</b></font><font color="#7F7F7F"> logout user not logged in error                                     </font> <font color="#7F7F7F">0.01s</font>  
+
+  <font color="#7F7F7F">Tests:</font>    <font color="#00FF00"><b>40 passed</b></font><font color="#7F7F7F"> (65 assertions)</font>
+  <font color="#7F7F7F">Duration:</font> 1.11s
+
+<font color="#00FF00"><b>richard@richard-ntb</b></font>:<font color="#5C5CFF"><b>~/Skola/ASOS/Back-end</b></font>$ 
+</pre>
